@@ -34,6 +34,7 @@ ser.on('data', function(data) {
         'vpd': Number(val[6])
 
     }
+    sensors.sensors = jdata;
     io.to('0x01').emit('SENSOR_DATA', jdata);
     client.emit("SENSORS_DATA", jdata);
     console.log(jdata);
