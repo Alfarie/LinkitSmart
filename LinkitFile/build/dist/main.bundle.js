@@ -1,14 +1,14 @@
 webpackJsonp([1,4],{
 
-/***/ 11:
+/***/ 10:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_socket_io_client__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_socket_io_client__ = __webpack_require__(280);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_socket_io_client___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_socket_io_client__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__disconnect_connection_guard__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__disconnect_connection_guard__ = __webpack_require__(42);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SocketService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -51,7 +51,7 @@ var SocketService = (function () {
     return SocketService;
 }());
 SocketService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* Router */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__disconnect_connection_guard__["a" /* ConnectionGuard */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__disconnect_connection_guard__["a" /* ConnectionGuard */]) === "function" && _b || Object])
 ], SocketService);
 
@@ -60,7 +60,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 112:
+/***/ 124:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -69,42 +69,47 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 112;
+webpackEmptyContext.id = 124;
 
 
 /***/ }),
 
-/***/ 113:
+/***/ 125:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(142);
 
 
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
 
 /***/ }),
 
-/***/ 121:
+/***/ 133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__live_data_component_live_data_component_component__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings_settings_component__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__disconnect_disconnect_component__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__disconnect_connection_guard__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__live_data_component_live_data_component_component__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__control_control_component__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings_component__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__disconnect_disconnect_component__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__disconnect_connection_guard__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__data_data_component__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__sensortable_sensortable_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__sensortable_table_table_component__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__sensortable_graph_graph_component__ = __webpack_require__(78);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -118,11 +123,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
+
+
+
 var routes = [
     { path: '', redirectTo: '/live', pathMatch: 'full' },
-    { path: 'live', component: __WEBPACK_IMPORTED_MODULE_2__live_data_component_live_data_component_component__["a" /* LiveDataComponentComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_5__disconnect_connection_guard__["a" /* ConnectionGuard */]] },
-    { path: 'setting', component: __WEBPACK_IMPORTED_MODULE_3__settings_settings_component__["a" /* SettingsComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_5__disconnect_connection_guard__["a" /* ConnectionGuard */]] },
-    { path: 'disconnected', component: __WEBPACK_IMPORTED_MODULE_4__disconnect_disconnect_component__["a" /* DisconnectComponent */] }
+    { path: 'live', component: __WEBPACK_IMPORTED_MODULE_2__live_data_component_live_data_component_component__["a" /* LiveDataComponentComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_6__disconnect_connection_guard__["a" /* ConnectionGuard */]] },
+    { path: 'control', component: __WEBPACK_IMPORTED_MODULE_3__control_control_component__["a" /* ControlComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_6__disconnect_connection_guard__["a" /* ConnectionGuard */]] },
+    { path: 'setting', component: __WEBPACK_IMPORTED_MODULE_4__settings_settings_component__["a" /* SettingsComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_6__disconnect_connection_guard__["a" /* ConnectionGuard */]] },
+    { path: 'data', component: __WEBPACK_IMPORTED_MODULE_7__data_data_component__["a" /* DataComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_6__disconnect_connection_guard__["a" /* ConnectionGuard */]] },
+    { path: 'datalogger', component: __WEBPACK_IMPORTED_MODULE_8__sensortable_sensortable_component__["a" /* SensortableComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_6__disconnect_connection_guard__["a" /* ConnectionGuard */]],
+        children: [
+            { path: 'table', component: __WEBPACK_IMPORTED_MODULE_9__sensortable_table_table_component__["a" /* TableComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_6__disconnect_connection_guard__["a" /* ConnectionGuard */]] },
+            { path: 'graph', component: __WEBPACK_IMPORTED_MODULE_10__sensortable_graph_graph_component__["a" /* GraphComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_6__disconnect_connection_guard__["a" /* ConnectionGuard */]] }
+        ]
+    },
+    { path: 'disconnected', component: __WEBPACK_IMPORTED_MODULE_5__disconnect_disconnect_component__["a" /* DisconnectComponent */] }
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
@@ -130,7 +148,7 @@ var AppRoutingModule = (function () {
     return AppRoutingModule;
 }());
 AppRoutingModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */].forRoot(routes)
         ],
@@ -144,13 +162,13 @@ AppRoutingModule = __decorate([
 
 /***/ }),
 
-/***/ 122:
+/***/ 134:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_socket_service__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_data_service__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_socket_service__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_data_service__ = __webpack_require__(7);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -173,10 +191,10 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-root',
-        template: __webpack_require__(211),
-        styles: [__webpack_require__(197)]
+        template: __webpack_require__(237),
+        styles: [__webpack_require__(216)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_socket_service__["a" /* SocketService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__share_data_service__["a" /* DataService */]) === "function" && _b || Object])
 ], AppComponent);
@@ -186,30 +204,41 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 123:
+/***/ 135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__live_data_component_live_data_component_component__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__share_socket_service__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__share_data_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__set_point_set_point_component__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_routing_app_routing_module__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__disconnect_disconnect_component__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__mode_mode_component__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__node_modules_angular2_ui_switch_src__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__settings_settings_component__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__mode_mode_service__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__manual_manual_component__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__auto_auto_component__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__timer_timer_component__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__detecting_detecting_component__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__disconnect_connection_guard__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__live_data_component_live_data_component_component__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__share_socket_service__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__share_data_service__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__set_point_set_point_component__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_routing_app_routing_module__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__disconnect_disconnect_component__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__mode_mode_component__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__node_modules_angular2_ui_switch_src__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__control_control_component__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__mode_mode_service__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__manual_manual_component__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__auto_auto_component__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__timer_timer_component__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__detecting_detecting_component__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__disconnect_connection_guard__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__settings_settings_component__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__data_data_component__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_ng2_charts__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22_ng2_charts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__data_graph_service__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_angular2_highcharts__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_angular2_highcharts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24_angular2_highcharts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__sensortable_sensortable_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__sensortable_table_table_component__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__sensortable_graph_graph_component__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_angular2_google_chart_directives_angular2_google_chart_directive__ = __webpack_require__(130);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -237,33 +266,50 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
+
+
+
+
+
+
+
 var AppModule = (function () {
     function AppModule() {
     }
     return AppModule;
 }());
 AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_5__live_data_component_live_data_component_component__["a" /* LiveDataComponentComponent */],
             __WEBPACK_IMPORTED_MODULE_8__set_point_set_point_component__["a" /* SetPointComponent */],
             __WEBPACK_IMPORTED_MODULE_10__disconnect_disconnect_component__["a" /* DisconnectComponent */],
             __WEBPACK_IMPORTED_MODULE_11__mode_mode_component__["a" /* ModeComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__settings_settings_component__["a" /* SettingsComponent */],
+            __WEBPACK_IMPORTED_MODULE_13__control_control_component__["a" /* ControlComponent */],
             __WEBPACK_IMPORTED_MODULE_15__manual_manual_component__["a" /* ManualComponent */],
             __WEBPACK_IMPORTED_MODULE_16__auto_auto_component__["a" /* AutoComponent */],
             __WEBPACK_IMPORTED_MODULE_17__timer_timer_component__["a" /* TimerComponent */],
-            __WEBPACK_IMPORTED_MODULE_18__detecting_detecting_component__["a" /* DetectingComponent */]
+            __WEBPACK_IMPORTED_MODULE_18__detecting_detecting_component__["a" /* DetectingComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__settings_settings_component__["a" /* SettingsComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__data_data_component__["a" /* DataComponent */],
+            __WEBPACK_IMPORTED_MODULE_25__sensortable_sensortable_component__["a" /* SensortableComponent */],
+            __WEBPACK_IMPORTED_MODULE_26__sensortable_table_table_component__["a" /* TableComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__sensortable_graph_graph_component__["a" /* GraphComponent */],
+            __WEBPACK_IMPORTED_MODULE_28_angular2_google_chart_directives_angular2_google_chart_directive__["a" /* GoogleChart */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_9__app_routing_app_routing_module__["a" /* AppRoutingModule */],
-            __WEBPACK_IMPORTED_MODULE_12__node_modules_angular2_ui_switch_src__["a" /* UiSwitchModule */]
+            __WEBPACK_IMPORTED_MODULE_12__node_modules_angular2_ui_switch_src__["a" /* UiSwitchModule */],
+            __WEBPACK_IMPORTED_MODULE_22_ng2_charts__["ChartsModule"],
+            __WEBPACK_IMPORTED_MODULE_24_angular2_highcharts__["ChartModule"],
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_6__share_socket_service__["a" /* SocketService */], __WEBPACK_IMPORTED_MODULE_7__share_data_service__["a" /* DataService */], __WEBPACK_IMPORTED_MODULE_14__mode_mode_service__["a" /* ModeService */], __WEBPACK_IMPORTED_MODULE_19__disconnect_connection_guard__["a" /* ConnectionGuard */]],
+        providers: [__WEBPACK_IMPORTED_MODULE_6__share_socket_service__["a" /* SocketService */], __WEBPACK_IMPORTED_MODULE_7__share_data_service__["a" /* DataService */], __WEBPACK_IMPORTED_MODULE_14__mode_mode_service__["a" /* ModeService */], __WEBPACK_IMPORTED_MODULE_19__disconnect_connection_guard__["a" /* ConnectionGuard */], __WEBPACK_IMPORTED_MODULE_23__data_graph_service__["a" /* GraphService */]],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
@@ -272,13 +318,13 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 124:
+/***/ 136:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_socket_service__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_socket_service__ = __webpack_require__(10);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AutoComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -349,10 +395,10 @@ var AutoComponent = (function () {
     return AutoComponent;
 }());
 AutoComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-auto',
-        template: __webpack_require__(212),
-        styles: [__webpack_require__(198)]
+        template: __webpack_require__(238),
+        styles: [__webpack_require__(217)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__share_socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__share_socket_service__["a" /* SocketService */]) === "function" && _b || Object])
 ], AutoComponent);
@@ -362,14 +408,14 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 125:
+/***/ 137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mode_mode_service__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_data_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__share_socket_service__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mode_mode_service__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_data_service__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__share_socket_service__ = __webpack_require__(10);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DetectingComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -400,10 +446,10 @@ var DetectingComponent = (function () {
     return DetectingComponent;
 }());
 DetectingComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-detecting',
-        template: __webpack_require__(213),
-        styles: [__webpack_require__(199)]
+        template: __webpack_require__(241),
+        styles: [__webpack_require__(220)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__mode_mode_service__["a" /* ModeService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__mode_mode_service__["a" /* ModeService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__share_data_service__["a" /* DataService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__share_socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__share_socket_service__["a" /* SocketService */]) === "function" && _c || Object])
 ], DetectingComponent);
@@ -413,13 +459,13 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 126:
+/***/ 138:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_socket_service__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_data_service__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_socket_service__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_data_service__ = __webpack_require__(7);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ManualComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -450,10 +496,10 @@ var ManualComponent = (function () {
     return ManualComponent;
 }());
 ManualComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-manual',
-        template: __webpack_require__(216),
-        styles: [__webpack_require__(202)]
+        template: __webpack_require__(244),
+        styles: [__webpack_require__(223)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_socket_service__["a" /* SocketService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__share_data_service__["a" /* DataService */]) === "function" && _b || Object])
 ], ManualComponent);
@@ -463,14 +509,14 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 127:
+/***/ 139:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mode_service__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_socket_service__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__share_data_service__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mode_service__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_socket_service__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__share_data_service__ = __webpack_require__(7);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModeComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -513,10 +559,10 @@ var ModeComponent = (function () {
     return ModeComponent;
 }());
 ModeComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-mode',
-        template: __webpack_require__(217),
-        styles: [__webpack_require__(203)]
+        template: __webpack_require__(245),
+        styles: [__webpack_require__(224)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__mode_service__["a" /* ModeService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__mode_service__["a" /* ModeService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__share_socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__share_socket_service__["a" /* SocketService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__share_data_service__["a" /* DataService */]) === "function" && _c || Object])
 ], ModeComponent);
@@ -526,14 +572,14 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 128:
+/***/ 140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_socket_service__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mode_mode_service__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_socket_service__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mode_mode_service__ = __webpack_require__(25);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SetPointComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -564,10 +610,10 @@ var SetPointComponent = (function () {
     return SetPointComponent;
 }());
 SetPointComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-set-point',
-        template: __webpack_require__(218),
-        styles: [__webpack_require__(204)]
+        template: __webpack_require__(249),
+        styles: [__webpack_require__(228)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__share_socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__share_socket_service__["a" /* SocketService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__mode_mode_service__["a" /* ModeService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__mode_mode_service__["a" /* ModeService */]) === "function" && _c || Object])
 ], SetPointComponent);
@@ -577,14 +623,14 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 129:
+/***/ 141:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mode_mode_service__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_socket_service__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__share_data_service__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mode_mode_service__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_socket_service__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__share_data_service__ = __webpack_require__(7);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TimerComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -607,12 +653,12 @@ var TimerComponent = (function () {
         this.hourList = [12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
         this.minList = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
         this.pList = ["am", "pm"];
-        this.hour_f = "hour";
-        this.min_f = "min";
-        this.p_f = "pm";
-        this.hour_t = "hour";
-        this.min_t = "min";
-        this.p_t = "pm";
+        this.hour_f = 12;
+        this.min_f = 0;
+        this.p_f = "am";
+        this.hour_t = 12;
+        this.min_t = 0;
+        this.p_t = "am";
         this.selected = 0;
         this.timerList = [];
     }
@@ -633,6 +679,9 @@ var TimerComponent = (function () {
         // this.dataservice.timerList[1] = [];
         // this.dataservice.timerList[2] = [];
         // this.dataservice.timerList[3] = [];
+    };
+    TimerComponent.prototype.onChange = function (val) {
+        console.log(val);
     };
     TimerComponent.prototype.add = function () {
         var a = !isNaN(this.hour_f) && !isNaN(this.min_f) && !isNaN(this.hour_t) && !isNaN(this.min_t);
@@ -682,11 +731,11 @@ var TimerComponent = (function () {
         var to = this.hour_t + ":" + this.min_t + this.p_t;
         var time = {
             'from': {
-                'hour': this.hour_f,
+                'hour': hf,
                 'min': this.min_f
             },
             'to': {
-                'hour': this.hour_t,
+                'hour': ht,
                 'min': this.min_t
             },
             'timestr': from + " - " + to,
@@ -702,10 +751,10 @@ var TimerComponent = (function () {
     return TimerComponent;
 }());
 TimerComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-timer',
-        template: __webpack_require__(220),
-        styles: [__webpack_require__(206)]
+        template: __webpack_require__(251),
+        styles: [__webpack_require__(230)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__mode_mode_service__["a" /* ModeService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__mode_mode_service__["a" /* ModeService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__share_socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__share_socket_service__["a" /* SocketService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__share_data_service__["a" /* DataService */]) === "function" && _c || Object])
 ], TimerComponent);
@@ -715,7 +764,7 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 130:
+/***/ 142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -732,10 +781,10 @@ var environment = {
 
 /***/ }),
 
-/***/ 197:
+/***/ 216:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(6)();
+exports = module.exports = __webpack_require__(4)();
 // imports
 
 
@@ -750,10 +799,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 198:
+/***/ 217:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(6)();
+exports = module.exports = __webpack_require__(4)();
 // imports
 
 
@@ -768,10 +817,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 199:
+/***/ 218:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(6)();
+exports = module.exports = __webpack_require__(4)();
 // imports
 
 
@@ -786,118 +835,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 200:
+/***/ 219:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(6)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 201:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(6)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 202:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(6)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 203:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(6)();
-// imports
-
-
-// module
-exports.push([module.i, "label {\n    font-size: 30px;\n    text-align: center;\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 204:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(6)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 205:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(6)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 206:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(6)();
+exports = module.exports = __webpack_require__(4)();
 // imports
 
 
@@ -912,82 +853,301 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 211:
-/***/ (function(module, exports) {
+/***/ 220:
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<div class=\"container\" style=\"margin-top: 50px; margin-bottom: 20px;\">\n    <h3>GreenHouse</h3>\n    <div class=\"btn-group-lg\" role=\"group\" aria-label=\"...\">\n        <a routerLink=\"/live\"><button type=\"button\" class=\"btn btn-default\">Live</button></a>\n        <a routerLink=\"/setting\"><button type=\"button\" class=\"btn btn-default\">Setting</button></a>\n    </div>\n</div>\n<!--\n<app-live-data-component></app-live-data-component>-->\n<router-outlet></router-outlet>"
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 212:
+/***/ 221:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 222:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 223:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 224:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "label {\n    font-size: 30px;\n    text-align: center;\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 225:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\n.axis {\n    font: 10px sans-serif;\n}\n\n.axis path,\n.axis line {\n    fill: none;\n    stroke: #000;\n    shape-rendering: crispEdges;\n}\n\n.axis-title {\n    fill: none;\n    stroke: black;\n    stroke-width: 0.5px;\n}\n\n.axis--x path {\n    /*display: none;*/\n}\n\n.line {\n    fill: none;\n    stroke: steelblue;\n    stroke-width: 1.5px;\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 226:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 227:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 228:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 229:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 230:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, ".list-group-item>.del {\n    float: right;\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 237:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\" style=\"margin-top: 50px; margin-bottom: 20px;\">\n    <h3>GreenHouse</h3>\n    <div class=\"btn-group-lg\" role=\"group\" aria-label=\"...\">\n        <a routerLink=\"/live\"><button type=\"button\" class=\"btn btn-default\">Live</button></a>\n        <a routerLink=\"/control\"><button type=\"button\" class=\"btn btn-default\">Control</button></a>\n        <a routerLink=\"/setting\"><button type=\"button\" class=\"btn btn-default\">Setting</button></a>\n        <a routerLink=\"/data\"><button type=\"button\" class=\"btn btn-default\">Data</button></a>\n    </div>\n</div>\n<!--\n<app-live-data-component></app-live-data-component>-->\n<router-outlet></router-outlet>"
+
+/***/ }),
+
+/***/ 238:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"container\">\n    <div class=\"form-group\">\n        <label>Auto</label>\n\n        <div class=\"radio\">\n            <label>\n            <ui-switch [(ngModel)]=\"dataservice.isTimer\" (change)=\"onTimer($event) \"></ui-switch> Timer\n        </label>\n        </div>\n        <div class=\"radio\">\n            <label>\n            <ui-switch [(ngModel)]=\"dataservice.isSetpoint\" (change)=\"onSetpoint($event) \"></ui-switch> Set-Point\n        </label>\n        </div>\n        <div class=\"radio \">\n            <label>\n            <ui-switch [(ngModel)]=\"dataservice.isDetecting\" (change)=\"onDetecting($event) \"></ui-switch> Detecting\n        </label>\n        </div>\n    </div>\n</div>"
 
 /***/ }),
 
-/***/ 213:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n    <table>\n        <td>Channel :</td>\n        <td>\n            <div class=\"dropdown\">\n                <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n        Channel {{selected + 1}}\n        <span class=\"caret\"></span>\n        </button>\n                <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                    <li><a (click)=\"selected=0\">Channel 1</a></li>\n                    <li><a (click)=\"selected=1\">Channel 2</a></li>\n                    <li><a (click)=\"selected=2\">Channel 3</a></li>\n                    <li><a (click)=\"selected=3\">Channel 4</a></li>\n                </ul>\n            </div>\n        </td>\n    </table>\n    <h4 style=\"margin-top: 20px;\">Set-point {{selected+1}}</h4>\n    <div *ngFor=\"let i of dataservice.detecting; let ind = index;\">\n        <div *ngIf=\"selected == ind\">\n            <div>\n                <div class=\"input-group\">\n                    <span class=\"input-group-addon\">\n                <h4><input type=\"checkbox\"  [(ngModel)]=\"i.soil.isuse\" aria-label=\"...\"> <b>SOIL</b></h4>\n            </span>\n                </div>\n                <div class=\"row\" style=\"margin-top: 10px;\" *ngIf=\"i.soil.isuse\">\n                    <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>Set-point</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"i.soil.set\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                    </div>\n                    <!-- /.col-lg-6 -->\n                </div>\n                <!-- /.row -->\n            </div>\n            <div style=\"margin-top: 30px;\">\n                <div class=\"input-group\">\n                    <span class=\"input-group-addon\">\n                <h4><input type=\"checkbox\" [(ngModel)]=\"i.vpd.isuse\"  aria-label=\"...\"> <b>VPD</b></h4>\n            </span>\n                </div>\n                <div class=\"row\" style=\"margin-top: 10px;\" *ngIf=\"i.vpd.isuse\">\n                    <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>Set-point</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"i.vpd.set\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                    </div>\n                    <!-- /.col-lg-6 -->\n                </div>\n                <!-- /.row -->\n            </div>\n\n            <h4 style=\"margin-top: 20px;\">Parameter</h4>\n            <div class=\"row\" style=\"margin-top: 10px;\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                    <div class=\"input-group\">\n                        <span class=\"input-group-addon\">\n                        <b>Detecting time</b>\n                    </span>\n                        <!--<input type=\"number\" [(ngModel)]=\"data.soil[0]\" class=\"form-control\" aria-label=\"...\">-->\n                        <input type=\"number\" [(ngModel)]=\"dataservice.detecting[0].detecting\" class=\"form-control\" aria-label=\"...\">\n                    </div>\n                </div>\n                <!-- /.col-lg-6 -->\n            </div>\n\n            <div class=\"row\" style=\"margin-top: 10px;\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                    <div class=\"input-group\">\n                        <span class=\"input-group-addon\">\n                        <b>Woking time</b>\n                    </span>\n                        <!--<input type=\"number\" [(ngModel)]=\"data.soil[0]\" class=\"form-control\" aria-label=\"...\">-->\n                        <input type=\"number\" [(ngModel)]=\"i.working\" class=\"form-control\" aria-label=\"...\">\n                    </div>\n                </div>\n                <!-- /.col-lg-6 -->\n            </div>\n        </div>\n    </div>\n\n    <div class=\"btn-group-lg\" role=\"group\" aria-label=\"...\" style=\"margin-top: 20px; margin-bottom: 20px;\">\n        <button type=\"button\" class=\"btn btn-default\" (click)=\"UpdateDetecting()\">Update</button>\n    </div>\n</div>"
-
-/***/ }),
-
-/***/ 214:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n    <h2>Service status: <span style=\"color: red;\">Offline</span></h2>\n</div>"
-
-/***/ }),
-
-/***/ 215:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n\n    <div class=\"panel panel-default\">\n        <!-- Default panel contents -->\n        <div class=\"panel-heading\">Live Sensor</div>\n\n\n        <!-- Table -->\n        <table class=\"table\">\n            <tbody>\n                <tr>\n                    <td>time</td>\n                    <td>{{data.sensor.time}}</td>\n                </tr>\n                <tr>\n                    <td>vpd</td>\n                    <td>{{data.sensor.vpd}} kPa</td>\n                </tr>\n                <tr>\n                    <td>soil</td>\n                    <td>{{data.sensor.soil}} %</td>\n                </tr>\n                <tr>\n                    <td>temp</td>\n                    <td>{{data.sensor.temp}} C</td>\n                </tr>\n                <tr>\n                    <td>humi</td>\n                    <td>{{data.sensor.humi}} %</td>\n                </tr>\n                <tr>\n                    <td>light</td>\n                    <td>{{data.sensor.light}} Lux</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n\n</div>"
-
-/***/ }),
-
-/***/ 216:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\" *ngIf=\"!dataservice.mode\">\n    <div class=\"form-group\">\n        <label>Channel</label>\n        <div class=\"radio\">\n            <label>\n              <ui-switch [(ngModel)]=\"dataservice.manualRelay[0]\" (change)=\"onChange($event,1)\" ></ui-switch> Channel 1\n            </label>\n        </div>\n        <div class=\"radio\">\n            <label>\n                  <ui-switch [(ngModel)]=\"dataservice.manualRelay[1]\" (change)=\"onChange($event,2)\"></ui-switch> Channel 2\n             </label>\n        </div>\n        <div class=\"radio\">\n            <label>\n                <ui-switch [(ngModel)]=\"dataservice.manualRelay[2]\" (change)=\"onChange($event,3)\"></ui-switch> Channel 3\n             </label>\n        </div>\n        <div class=\"radio\">\n            <label>\n                <ui-switch [(ngModel)]=\"dataservice.manualRelay[3]\" (change)=\"onChange($event,4)\"></ui-switch> Channel 4\n             </label>\n        </div>\n    </div>\n</div>"
-
-/***/ }),
-
-/***/ 217:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\" id=\"big\">\n    <div class=\"form-group\">\n        <label>Mode</label>\n        <div class=\"radio\">\n            <label>\n              <ui-switch [(ngModel)]=\"dataservice.mode\" (change)=\"onAuto($event)\"></ui-switch> Auto\n            </label>\n        </div>\n    </div>\n</div>"
-
-/***/ }),
-
-/***/ 218:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n    <table style=\"margin-bottom: 20px;\">\n        <td>Channel :</td>\n        <td>\n            <div class=\"dropdown\">\n                <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n        Channel {{selected + 1}}\n        <span class=\"caret\"></span>\n        </button>\n                <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                    <li><a (click)=\"selected=0\">Channel 1</a></li>\n                    <li><a (click)=\"selected=1\">Channel 2</a></li>\n                    <li><a (click)=\"selected=2\">Channel 3</a></li>\n                    <li><a (click)=\"selected=3\">Channel 4</a></li>\n                </ul>\n            </div>\n        </td>\n    </table>\n\n    <div *ngFor=\"let data of data.setpoint.setPoint; let i = index;\">\n        <div *ngIf=\"selected==i\">\n            <div>\n                <div class=\"input-group\">\n                    <span class=\"input-group-addon\">\n                    <h4><input type=\"checkbox\"  [(ngModel)]=\"data.vpd[2]\" (change)=\"data.vpd[2]=($event.target.checked)\" aria-label=\"...\"> <b>VPD</b></h4>\n            </span>\n                </div>\n                <div class=\"row\" style=\"margin-top: 10px;\" *ngIf=\"data.vpd[2]\">\n                    <div class=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>from</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"data.vpd[0]\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                        <!-- /input-group -->\n                    </div>\n                    <!-- /.col-lg-6 -->\n                    <div class=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>to</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"data.vpd[1]\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                        <!-- /input-group -->\n                    </div>\n                    <!-- /.col-lg-6 -->\n                </div>\n                <!-- /.row -->\n            </div>\n\n            <div style=\"margin-top: 30px;\">\n                <div class=\"input-group\">\n                    <span class=\"input-group-addon\">\n                <h4><input type=\"checkbox\" [(ngModel)]=\"data.soil[2]\" (change)=\"data.soil[2]=($event.target.checked)\" aria-label=\"...\"> <b>SOIL</b></h4>\n            </span>\n                </div>\n                <div class=\"row\" style=\"margin-top: 10px;\" *ngIf=\"data.soil[2]\">\n                    <div class=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>from</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"data.soil[0]\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                        <!-- /input-group -->\n                    </div>\n                    <!-- /.col-lg-6 -->\n                    <div class=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>to</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"data.soil[1]\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                        <!-- /input-group -->\n                    </div>\n                    <!-- /.col-lg-6 -->\n                </div>\n                <!-- /.row -->\n            </div>\n\n            <div class=\"btn-group-lg\" role=\"group\" aria-label=\"...\" style=\"margin-top: 20px; margin-bottom: 20px;\">\n                <button type=\"button\" class=\"btn btn-default\" (click)=\"UpdateSetPoint()\">Update</button>\n            </div>\n\n        </div>\n    </div>\n\n</div>"
-
-/***/ }),
-
-/***/ 219:
+/***/ 239:
 /***/ (function(module, exports) {
 
 module.exports = "<app-mode></app-mode>\n\n\n<div *ngIf=\"dataservice.mode\">\n    <app-auto></app-auto>\n    <app-timer *ngIf=\"dataservice.isTimer\"></app-timer>\n    <app-detecting *ngIf=\"dataservice.isDetecting\"></app-detecting>\n    <app-set-point *ngIf=\"dataservice.isSetpoint\"></app-set-point>\n</div>\n\n<app-manual></app-manual>"
 
 /***/ }),
 
-/***/ 220:
+/***/ 240:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n\n    <div class=\"row\">\n\n        <div class=\"container\">\n            <label>Timer</label>\n            <table>\n                <td>Channel :</td>\n                <td>\n                    <div class=\"dropdown\">\n                        <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n                            Channel {{selected + 1}}\n                            <span class=\"caret\"></span>\n                        </button>\n                        <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                            <li><a (click)=\"selected=0\">Channel 1</a></li>\n                            <li><a (click)=\"selected=1\">Channel 2</a></li>\n                            <li><a (click)=\"selected=2\">Channel 3</a></li>\n                            <li><a (click)=\"selected=3\">Channel 4</a></li>\n                        </ul>\n                    </div>\n                </td>\n            </table>\n        </div>\n\n    </div>\n\n    <div class=\"row\" style=\"margin-top: 20px;\">\n        <div class=\"container\">\n            <ul class=\"list-group\">\n                <li class=\"list-group-item\" *ngFor=\"let i of dataservice.timerList[selected]; let ind = index;\" style=\"height: 50px;\">{{i.timestr}}\n                    <span class=\"del\">\n                        <button type=\"button\" (click)=\"remove(selected,ind)\" class=\"btn btn-danger btn-sm\" aria-label=\"Left Align\" >\n                            <span class=\"glyphicon glyphicon-erase\" aria-hidden=\"true\"></span>\n                    </button>\n                    </span>\n                </li>\n            </ul>\n        </div>\n    </div>\n\n\n    <div class=\"row\">\n        <div class=\"col-xs-7 col-sm-7 col-md-3 col-lg-3\">\n            <h5>Start</h5>\n            <div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{hour_f}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of hourList\">\n                            <a (click)=\"hour_f = i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{min_f}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of minList\">\n                            <a (click)=\"min_f = i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{p_f}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of pList\">\n                            <a (click)=\"p_f = i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n            <br>\n            <h5>To</h5>\n            <div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{hour_t}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of hourList\">\n                            <a (click)=\"hour_t = i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n            <div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{min_t}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of minList\">\n                            <a (click)=\"min_t=i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n                        {{p_t}}\n                        <span class=\"caret\"></span>\n                    </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of pList\">\n                            <a (click)=\"p_t=i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-xs-4 col-sm-4 col-md-4 col-lg-4\">\n            <button type=\"button\" class=\"btn btn-default btn-lg\" style=\"margin-top: 60px;\" (click)=\"add()\">Add</button>\n        </div>\n\n\n    </div>\n\n\n\n</div>"
+module.exports = "<div class=\"container\">\n\n\n    <div class=\"row\">\n\n        <div class=\"container\">\n            <h4>Data logger</h4>\n            <label style=\"color: gray\">MM/YY</label>\n            <div style=\"display:inline-block;\">\n                <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"checkMonth($event.target.value)\">\n          <option  *ngFor=\"let i of monthList\" >\n            {{i}}\n          </option>\n        </select>\n            </div>\n\n            <div style=\"display:inline-block;\">\n                <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"checkYear($event.target.value)\">\n          <option  *ngFor=\"let i of yearList\" >\n            {{i}}\n          </option>\n        </select>\n            </div>\n        </div>\n\n\n\n        <div class=\"container\" style=\"margin-top: 20px;\">\n\n            <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6\">\n                <ul class=\"list-group\">\n                    <li class=\"list-group-item\" style=\"height: 50px;\" *ngFor=\"let i of dateList\"> {{i.name}}\n                        <span class=\"del\">\n                        <button (click)=\"getDataFromDate(i.val)\" type=\"button\" class=\"btn btn-primary btn-sm\" aria-label=\"Left Align\" >\n                            <span class=\"glyphicon glyphicon-folder-open\" aria-hidden=\"true\"></span>\n                        </button>\n                        </span>\n                    </li>\n                </ul>\n            </div>\n\n        </div>\n\n\n\n    </div>\n\n\n    <!--<div class=\"row\" style=\"margin-top: 20px;\">\n        <button type=\"button\" class=\"btn btn-default\">\n        <span class=\"glyphicon glyphicon-signal\" aria-hidden=\"true\"></span> Graph\n        </button>\n        <button type=\"button\" class=\"btn btn-default \">\n            <span class=\"glyphicon glyphicon-th-list\" aria-hidden=\"true\"></span> Table\n        </button>\n    </div>-->\n\n    <br>\n\n    <!--<table class=\"table table-hover\">\n        <thead>\n            <tr>\n                <th>Time</th>\n                <th>Temperature (C)</th>\n                <th>Humidity (%)</th>\n                <th>Light(Lux)</th>\n                <th>Soil(%)</th>\n                <th>VPD (Pa)</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr *ngFor=\"let i of sensorsData\">\n                <td>{{i.time}}</td>\n                <td>{{i.temp}}</td>\n                <td>{{i.humi}}</td>\n                <td>{{i.light}}</td>\n                <td>{{i.soil}}</td>\n                <td>{{i.vpd}}</td>\n            </tr>\n        </tbody>\n    </table>-->\n\n</div>"
 
 /***/ }),
 
-/***/ 23:
+/***/ 241:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <table>\n        <td>Channel :</td>\n        <td>\n            <div class=\"dropdown\">\n                <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n        Channel {{selected + 1}}\n        <span class=\"caret\"></span>\n        </button>\n                <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                    <li><a (click)=\"selected=0\">Channel 1</a></li>\n                    <li><a (click)=\"selected=1\">Channel 2</a></li>\n                    <li><a (click)=\"selected=2\">Channel 3</a></li>\n                    <li><a (click)=\"selected=3\">Channel 4</a></li>\n                </ul>\n            </div>\n        </td>\n    </table>\n    <h4 style=\"margin-top: 20px;\">Set-point {{selected+1}}</h4>\n    <div *ngFor=\"let i of dataservice.detecting; let ind = index;\">\n        <div *ngIf=\"selected == ind\">\n            <div>\n                <div class=\"input-group\">\n                    <span class=\"input-group-addon\">\n                <h4><input type=\"checkbox\"  [(ngModel)]=\"i.soil.isuse\" aria-label=\"...\"> <b>SOIL</b></h4>\n            </span>\n                </div>\n                <div class=\"row\" style=\"margin-top: 10px;\" *ngIf=\"i.soil.isuse\">\n                    <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>Set-point</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"i.soil.set\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                    </div>\n                    <!-- /.col-lg-6 -->\n                </div>\n                <!-- /.row -->\n            </div>\n            <div style=\"margin-top: 30px;\">\n                <div class=\"input-group\">\n                    <span class=\"input-group-addon\">\n                <h4><input type=\"checkbox\" [(ngModel)]=\"i.vpd.isuse\"  aria-label=\"...\"> <b>VPD</b></h4>\n            </span>\n                </div>\n                <div class=\"row\" style=\"margin-top: 10px;\" *ngIf=\"i.vpd.isuse\">\n                    <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>Set-point</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"i.vpd.set\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                    </div>\n                    <!-- /.col-lg-6 -->\n                </div>\n                <!-- /.row -->\n            </div>\n\n            <h4 style=\"margin-top: 20px;\">Parameter</h4>\n            <div class=\"row\" style=\"margin-top: 10px;\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                    <div class=\"input-group\">\n                        <span class=\"input-group-addon\">\n                        <b>Detecting time</b>\n                    </span>\n                        <!--<input type=\"number\" [(ngModel)]=\"data.soil[0]\" class=\"form-control\" aria-label=\"...\">-->\n                        <input type=\"number\" [(ngModel)]=\"dataservice.detecting[0].detecting\" class=\"form-control\" aria-label=\"...\">\n                    </div>\n                </div>\n                <!-- /.col-lg-6 -->\n            </div>\n\n            <div class=\"row\" style=\"margin-top: 10px;\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                    <div class=\"input-group\">\n                        <span class=\"input-group-addon\">\n                        <b>Woking time</b>\n                    </span>\n                        <!--<input type=\"number\" [(ngModel)]=\"data.soil[0]\" class=\"form-control\" aria-label=\"...\">-->\n                        <input type=\"number\" [(ngModel)]=\"i.working\" class=\"form-control\" aria-label=\"...\">\n                    </div>\n                </div>\n                <!-- /.col-lg-6 -->\n            </div>\n        </div>\n    </div>\n\n    <div class=\"btn-group-lg\" role=\"group\" aria-label=\"...\" style=\"margin-top: 20px; margin-bottom: 20px;\">\n        <button type=\"button\" class=\"btn btn-default\" (click)=\"UpdateDetecting()\">Update</button>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ 242:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <h2>Service status: <span style=\"color: red;\">Offline</span></h2>\n</div>"
+
+/***/ }),
+
+/***/ 243:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n\n    <div class=\"panel panel-default\">\n        <!-- Default panel contents -->\n        <div class=\"panel-heading\">Live Sensor</div>\n\n\n        <!-- Table -->\n        <table class=\"table\">\n            <tbody>\n                <tr>\n                    <td>time</td>\n                    <td>{{data.sensor.time}}</td>\n                </tr>\n                <tr>\n                    <td>vpd</td>\n                    <td>{{data.sensor.vpd}} Pa</td>\n                </tr>\n                <tr>\n                    <td>soil</td>\n                    <td>{{data.sensor.soil}} %</td>\n                </tr>\n                <tr>\n                    <td>temp</td>\n                    <td>{{data.sensor.temp}} C</td>\n                </tr>\n                <tr>\n                    <td>humi</td>\n                    <td>{{data.sensor.humi}} %</td>\n                </tr>\n                <tr>\n                    <td>light</td>\n                    <td>{{data.sensor.light}} Lux</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n\n</div>"
+
+/***/ }),
+
+/***/ 244:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\" *ngIf=\"!dataservice.mode\">\n    <div class=\"form-group\">\n        <label>Channel</label>\n        <div class=\"radio\">\n            <label>\n              <ui-switch [(ngModel)]=\"dataservice.manualRelay[0]\" (change)=\"onChange($event,1)\" ></ui-switch> Channel 1\n            </label>\n        </div>\n        <div class=\"radio\">\n            <label>\n                  <ui-switch [(ngModel)]=\"dataservice.manualRelay[1]\" (change)=\"onChange($event,2)\"></ui-switch> Channel 2\n             </label>\n        </div>\n        <div class=\"radio\">\n            <label>\n                <ui-switch [(ngModel)]=\"dataservice.manualRelay[2]\" (change)=\"onChange($event,3)\"></ui-switch> Channel 3\n             </label>\n        </div>\n        <div class=\"radio\">\n            <label>\n                <ui-switch [(ngModel)]=\"dataservice.manualRelay[3]\" (change)=\"onChange($event,4)\"></ui-switch> Channel 4\n             </label>\n        </div>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ 245:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\" id=\"big\">\n    <div class=\"form-group\">\n        <label>Mode</label>\n        <div class=\"radio\">\n            <label>\n              <ui-switch [(ngModel)]=\"dataservice.mode\" (change)=\"onAuto($event)\"></ui-switch> Auto\n            </label>\n        </div>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ 246:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n\n    <h4>Soil</h4>\n    <div id=\"line_chart\" [chartData]=\"(soilChartData)\" [chartOptions]=\"soilChartOption\" chartType=\"LineChart\" GoogleChart></div>\n\n    <h4>Light</h4>\n    <div id=\"line_chart\" [chartData]=\"(lightChartData)\" [chartOptions]=\"soilChartOption\" chartType=\"LineChart\" GoogleChart></div>\n\n    <h4>Vpd</h4>\n    <div id=\"line_chart\" [chartData]=\"(vpdChartData)\" [chartOptions]=\"soilChartOption\" chartType=\"LineChart\" GoogleChart></div>\n\n    <h4>Temperature</h4>\n    <div id=\"line_chart\" [chartData]=\"(tempChartData)\" [chartOptions]=\"soilChartOption\" chartType=\"LineChart\" GoogleChart></div>\n\n    <h4>Humidity</h4>\n    <div id=\"line_chart\" [chartData]=\"(humiChartData)\" [chartOptions]=\"soilChartOption\" chartType=\"LineChart\" GoogleChart></div>\n\n</div>"
+
+/***/ }),
+
+/***/ 247:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n\n    <div class=\"row\">\n\n        <div class=\"container\">\n            <button type=\"button\" class=\"btn btn-default\" (click)=\"toGraph()\">\n                <span class=\"glyphicon glyphicon-signal\" aria-hidden=\"true\"></span> Graph\n            </button>\n            <button type=\"button\" class=\"btn btn-default \" (click)=\"toTable()\">\n                <span class=\"glyphicon glyphicon-th-list\" aria-hidden=\"true\"></span> Table\n            </button>\n        </div>\n    </div>\n    <router-outlet></router-outlet>\n</div>"
+
+/***/ }),
+
+/***/ 248:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n\n    <div class=\"row\">\n        <div class=\"row\">\n\n            <div class=\"container\">\n                <table class=\"table table-hover\">\n                    <thead>\n                        <tr>\n                            <th>Time</th>\n                            <th>Temp (C)</th>\n                            <th>RH (%)</th>\n                            <th>Light(Lux)</th>\n                            <th>Soil(%)</th>\n                            <th>VPD (Pa)</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr *ngFor=\"let i of sensorsData\">\n                            <td>{{i.time}}</td>\n                            <td>{{i.temp}}</td>\n                            <td>{{i.humi}}</td>\n                            <td>{{i.light}}</td>\n                            <td>{{i.soil}}</td>\n                            <td>{{i.vpd}}</td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n\n</div>"
+
+/***/ }),
+
+/***/ 249:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <table style=\"margin-bottom: 20px;\">\n        <td>Channel :</td>\n        <td>\n            <div class=\"dropdown\">\n                <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n        Channel {{selected + 1}}\n        <span class=\"caret\"></span>\n        </button>\n                <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                    <li><a (click)=\"selected=0\">Channel 1</a></li>\n                    <li><a (click)=\"selected=1\">Channel 2</a></li>\n                    <li><a (click)=\"selected=2\">Channel 3</a></li>\n                    <li><a (click)=\"selected=3\">Channel 4</a></li>\n                </ul>\n            </div>\n        </td>\n    </table>\n\n    <div *ngFor=\"let data of data.setpoint.setPoint; let i = index;\">\n        <div *ngIf=\"selected==i\">\n            <div>\n                <div class=\"input-group\">\n                    <span class=\"input-group-addon\">\n                    <h4><input type=\"checkbox\"  [(ngModel)]=\"data.vpd[2]\" (change)=\"data.vpd[2]=($event.target.checked)\" aria-label=\"...\"> <b>VPD</b></h4>\n            </span>\n                </div>\n                <div class=\"row\" style=\"margin-top: 10px;\" *ngIf=\"data.vpd[2]\">\n                    <div class=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>from</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"data.vpd[0]\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                        <!-- /input-group -->\n                    </div>\n                    <!-- /.col-lg-6 -->\n                    <div class=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>to</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"data.vpd[1]\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                        <!-- /input-group -->\n                    </div>\n                    <!-- /.col-lg-6 -->\n                </div>\n                <!-- /.row -->\n            </div>\n\n            <div style=\"margin-top: 30px;\">\n                <div class=\"input-group\">\n                    <span class=\"input-group-addon\">\n                <h4><input type=\"checkbox\" [(ngModel)]=\"data.soil[2]\" (change)=\"data.soil[2]=($event.target.checked)\" aria-label=\"...\"> <b>SOIL</b></h4>\n            </span>\n                </div>\n                <div class=\"row\" style=\"margin-top: 10px;\" *ngIf=\"data.soil[2]\">\n                    <div class=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>from</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"data.soil[0]\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                        <!-- /input-group -->\n                    </div>\n                    <!-- /.col-lg-6 -->\n                    <div class=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n                        <div class=\"input-group\">\n                            <span class=\"input-group-addon\">\n                        <b>to</b>\n                    </span>\n                            <input type=\"number\" [(ngModel)]=\"data.soil[1]\" class=\"form-control\" aria-label=\"...\">\n                        </div>\n                        <!-- /input-group -->\n                    </div>\n                    <!-- /.col-lg-6 -->\n                </div>\n                <!-- /.row -->\n            </div>\n\n            <div class=\"btn-group-lg\" role=\"group\" aria-label=\"...\" style=\"margin-top: 20px; margin-bottom: 20px;\">\n                <button type=\"button\" class=\"btn btn-default\" (click)=\"UpdateSetPoint()\">Update</button>\n            </div>\n\n        </div>\n    </div>\n\n</div>"
+
+/***/ }),
+
+/***/ 25:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(7);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModeService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1011,7 +1171,7 @@ var ModeService = (function () {
     return ModeService;
 }());
 ModeService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */]) === "function" && _a || Object])
 ], ModeService);
 
@@ -1020,27 +1180,41 @@ var _a;
 
 /***/ }),
 
-/***/ 257:
+/***/ 250:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <h4>Date <span style=\"margin-left: 10px; font-size: 15px; color: gray\"> current: {{dataservice.sensor.date}} {{dataservice.sensor.time}}</span></h4>\n    <div style=\"display:inline-block;\">\n        <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"day=$event.target.value\">\n          <option  *ngFor=\"let i of dayList\" >\n            {{i}}\n          </option>\n        </select>\n    </div>\n\n    <div style=\"display:inline-block;\">\n        <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"month=$event.target.value\">\n          <option  *ngFor=\"let i of monthList\" >\n            {{i}}\n          </option>\n        </select>\n    </div>\n\n    <div style=\"display:inline-block;\">\n        <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"year=$event.target.value\">\n          <option  *ngFor=\"let i of yearList\" >\n            {{i}}\n          </option>\n        </select>\n    </div>\n\n    <h4>Time</h4>\n    <div style=\"display:inline-block;\">\n        <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"hour=$event.target.value\">\n          <option  *ngFor=\"let i of hourList\" >\n            {{i}}\n          </option>\n        </select>\n    </div>\n\n    <div style=\"display:inline-block;\">\n        <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"min=$event.target.value\">\n          <option  *ngFor=\"let i of minList\" >\n            {{i}}\n          </option>\n        </select>\n    </div>\n\n    <div style=\"display:inline-block;\">\n        <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"p=$event.target.value\">\n          <option  *ngFor=\"let i of pList\" >\n            {{i}}\n          </option>\n        </select>\n    </div>\n    <br>\n\n\n    <button type=\"button\" class=\"btn btn-default\" style=\"margin-top: 50px;\" (click)=\"onUpdate()\">Update</button>\n\n</div>"
+
+/***/ }),
+
+/***/ 251:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n\n    <div class=\"row\">\n\n        <div class=\"container\">\n            <label>Timer</label>\n            <table>\n                <td>Channel :</td>\n                <td>\n                    <div class=\"dropdown\">\n                        <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n                            Channel {{selected + 1}}\n                            <span class=\"caret\"></span>\n                        </button>\n                        <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                            <li><a (click)=\"selected=0\">Channel 1</a></li>\n                            <li><a (click)=\"selected=1\">Channel 2</a></li>\n                            <li><a (click)=\"selected=2\">Channel 3</a></li>\n                            <li><a (click)=\"selected=3\">Channel 4</a></li>\n                        </ul>\n                    </div>\n                </td>\n            </table>\n        </div>\n\n    </div>\n\n    <div class=\"row\" style=\"margin-top: 20px;\">\n        <div class=\"container\">\n            <ul class=\"list-group\">\n                <li class=\"list-group-item\" *ngFor=\"let i of dataservice.timerList[selected]; let ind = index;\" style=\"height: 50px;\">{{i.timestr}}\n                    <span class=\"del\">\n                        <button type=\"button\" (click)=\"remove(selected,ind)\" class=\"btn btn-danger btn-sm\" aria-label=\"Left Align\" >\n                            <span class=\"glyphicon glyphicon-erase\" aria-hidden=\"true\"></span>\n                    </button>\n                    </span>\n                </li>\n            </ul>\n        </div>\n    </div>\n\n\n    <div class=\"row\">\n        <div class=\"col-xs-7 col-sm-7 col-md-3 col-lg-3\">\n            <h5>Start</h5>\n            <div style=\"display:inline-block;\">\n                <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"hour_f=$event.target.value\">\n                    <option  *ngFor=\"let i of hourList\">\n                        {{i}}\n                    </option>\n                </select>\n            </div>\n\n            <!--<div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{hour_f}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of hourList\">\n                            <a (click)=\"hour_f = i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>-->\n\n\n            <div style=\"display:inline-block;\">\n                <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"min_f=$event.target.value\">\n                    <option  *ngFor=\"let i of minList\">\n                        {{i}}\n                    </option>\n                </select>\n            </div>\n\n            <!--<div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{min_f}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of minList\">\n                            <a (click)=\"min_f = i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>-->\n\n\n            <div style=\"display:inline-block;\">\n                <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"p_f=$event.target.value\">\n                    <option  *ngFor=\"let i of pList\">\n                        {{i}}\n                    </option>\n                </select>\n            </div>\n\n            <!--<div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{p_f}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of pList\">\n                            <a (click)=\"p_f = i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>-->\n\n            <br>\n            <h5>To</h5>\n\n            <div style=\"display:inline-block;\">\n                <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"hour_t=$event.target.value\">\n                    <option  *ngFor=\"let i of hourList\">\n                        {{i}}\n                    </option>\n                </select>\n            </div>\n\n            <!--<div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{hour_t}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of hourList\">\n                            <a (click)=\"hour_t = i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>-->\n\n            <div style=\"display:inline-block;\">\n                <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"min_t=$event.target.value\">\n                    <option  *ngFor=\"let i of minList\">\n                        {{i}}\n                    </option>\n                </select>\n            </div>\n            <!--<div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n            {{min_t}}\n            <span class=\"caret\"></span>\n          </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of minList\">\n                            <a (click)=\"min_t=i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>-->\n\n\n\n            <div style=\"display:inline-block;\">\n                <select name=\"\" id=\"input1/(\\w+)/\\u\\1/g\" class=\"form-control\" required=\"required\" (change)=\"p_t=$event.target.value\">\n                    <option  *ngFor=\"let i of pList\">\n                        {{i}}\n                    </option>\n                </select>\n            </div>\n            <!--<div style=\"display:inline-block;\">\n                <div class=\"dropdown\">\n                    <button class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n                        {{p_t}}\n                        <span class=\"caret\"></span>\n                    </button>\n                    <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu1\">\n                        <li *ngFor=\"let i of pList\">\n                            <a (click)=\"p_t=i\">{{i}}</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>-->\n        </div>\n\n        <div class=\"col-xs-4 col-sm-4 col-md-4 col-lg-4\">\n            <button type=\"button\" class=\"btn btn-default btn-lg\" style=\"margin-top: 60px;\" (click)=\"add()\">Add</button>\n        </div>\n\n\n    </div>\n\n\n\n</div>"
+
+/***/ }),
+
+/***/ 288:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 258:
+/***/ 289:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(113);
+module.exports = __webpack_require__(125);
 
 
 /***/ }),
 
-/***/ 41:
+/***/ 42:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(17);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConnectionGuard; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1067,7 +1241,7 @@ var ConnectionGuard = (function () {
     return ConnectionGuard;
 }());
 ConnectionGuard = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* Router */]) === "function" && _a || Object])
 ], ConnectionGuard);
 
@@ -1076,128 +1250,13 @@ var _a;
 
 /***/ }),
 
-/***/ 72:
+/***/ 7:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DisconnectComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var DisconnectComponent = (function () {
-    function DisconnectComponent() {
-    }
-    DisconnectComponent.prototype.ngOnInit = function () {
-    };
-    return DisconnectComponent;
-}());
-DisconnectComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
-        selector: 'app-disconnect',
-        template: __webpack_require__(214),
-        styles: [__webpack_require__(200)]
-    }),
-    __metadata("design:paramtypes", [])
-], DisconnectComponent);
-
-//# sourceMappingURL=disconnect.component.js.map
-
-/***/ }),
-
-/***/ 73:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(8);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveDataComponentComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var LiveDataComponentComponent = (function () {
-    function LiveDataComponentComponent(data) {
-        this.data = data;
-    }
-    LiveDataComponentComponent.prototype.ngOnInit = function () {
-    };
-    return LiveDataComponentComponent;
-}());
-LiveDataComponentComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
-        selector: 'app-live-data-component',
-        template: __webpack_require__(215),
-        styles: [__webpack_require__(201)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */]) === "function" && _a || Object])
-], LiveDataComponentComponent);
-
-var _a;
-//# sourceMappingURL=live-data-component.component.js.map
-
-/***/ }),
-
-/***/ 74:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(8);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var SettingsComponent = (function () {
-    function SettingsComponent(dataservice) {
-        this.dataservice = dataservice;
-    }
-    SettingsComponent.prototype.ngOnInit = function () {
-    };
-    return SettingsComponent;
-}());
-SettingsComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
-        selector: 'app-settings',
-        template: __webpack_require__(219),
-        styles: [__webpack_require__(205)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */]) === "function" && _a || Object])
-], SettingsComponent);
-
-var _a;
-//# sourceMappingURL=settings.component.js.map
-
-/***/ }),
-
-/***/ 8:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__socket_service__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__socket_service__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_graph_service__ = __webpack_require__(75);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1210,16 +1269,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var DataService = (function () {
-    function DataService(io) {
+    function DataService(io, graph) {
+        // setInterval(()=>{
         var _this = this;
         this.io = io;
+        this.graph = graph;
         this.manualRelay = [false, false, false, false];
         this.mode = false;
         this.isTimer = false;
         this.isSetpoint = false;
         this.isDetecting = false;
         this.timerList = [];
+        this.day = 1;
+        this.month = 1;
+        this.year = 2015;
+        this.hour = 0;
+        this.min = 0;
         this.detecting = [{
                 'vpd': {
                     'set': 2.0,
@@ -1269,12 +1336,29 @@ var DataService = (function () {
                 'detecting': 10
             }
         ];
+        //   console.log(this.graph.soil.length)
+        //   if(this.graph.soil.length >=15){
+        //     this.graph.soil.splice(0,1);
+        //   }
+        //   this.graph.soil.push(Math.floor((Math.random() * 100) + 1));
+        // },1000)
+        // test end ^^
         this.sensor = new SensorModel();
         this.setpoint = new SetPointModel();
         console.log("[DataService] dataservice init");
         this.io.socket.on("SENSOR_DATA", function (data) {
-            _this.sensor.setValue(data.time, data.vpd, data.soil, data.temp, data.humi, data.light);
-            // console.log(this.sensor)
+            _this.sensor.setValue(data.date, data.time, data.vpd, data.soil, data.temp, data.humi, data.light);
+            if (_this.graph.soil.length >= 15) {
+                _this.graph.soil.splice(0, -1);
+            }
+            _this.graph.soil.push(data.soil);
+            var d = data.date.split("/");
+            var t = data.time.split(":");
+            _this.day = d[0];
+            _this.month = d[1];
+            _this.year = d[2];
+            _this.hour = t[0];
+            _this.min = t[1];
         });
         this.io.socket.on("SET_POINT", function (data) {
             console.log('[DataService] Set Point\n ' + JSON.stringify(data));
@@ -1311,8 +1395,8 @@ var DataService = (function () {
     return DataService;
 }());
 DataService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__socket_service__["a" /* SocketService */]) === "function" && _a || Object])
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__socket_service__["a" /* SocketService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__data_graph_service__["a" /* GraphService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__data_graph_service__["a" /* GraphService */]) === "function" && _b || Object])
 ], DataService);
 
 var SensorModel = (function () {
@@ -1323,8 +1407,10 @@ var SensorModel = (function () {
         this.temp = 0.0;
         this.humi = 0.0;
         this.light = 0;
+        this.date = "0/0/0";
     }
-    SensorModel.prototype.setValue = function (time, vpd, soil, temp, humi, light) {
+    SensorModel.prototype.setValue = function (date, time, vpd, soil, temp, humi, light) {
+        this.date = date;
         this.time = time;
         this.vpd = vpd;
         this.soil = soil;
@@ -1365,10 +1451,543 @@ var SetPointModel = (function () {
     }
     return SetPointModel;
 }());
-var _a;
+var _a, _b;
 //# sourceMappingURL=data.service.js.map
+
+/***/ }),
+
+/***/ 73:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(7);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ControlComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ControlComponent = (function () {
+    function ControlComponent(dataservice) {
+        this.dataservice = dataservice;
+    }
+    ControlComponent.prototype.ngOnInit = function () {
+    };
+    return ControlComponent;
+}());
+ControlComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-settings',
+        template: __webpack_require__(239),
+        styles: [__webpack_require__(218)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */]) === "function" && _a || Object])
+], ControlComponent);
+
+var _a;
+//# sourceMappingURL=control.component.js.map
+
+/***/ }),
+
+/***/ 74:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(17);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DataComponent = (function () {
+    function DataComponent(http, route) {
+        var _this = this;
+        this.http = http;
+        this.route = route;
+        this.yearList = [];
+        this.monthList = [];
+        this.month = 1;
+        this.year = 2015;
+        this.dateList = [];
+        http.get("http://localhost:3000/api/getdata?date=121017").subscribe(function (data) {
+            _this.sensorsData = data.json();
+        });
+    }
+    DataComponent.prototype.ngOnInit = function () {
+        var year = 2015;
+        for (var i = 1; i <= 16; i++) {
+            this.yearList.push(year++);
+        }
+        for (var i = 1; i <= 12; i++) {
+            this.monthList.push(i);
+        }
+    };
+    DataComponent.prototype.checkMonth = function (val) {
+        this.month = val;
+        this.checkDate(this.month, this.year);
+    };
+    DataComponent.prototype.checkYear = function (val) {
+        this.year = val;
+        this.checkDate(this.month, this.year);
+    };
+    DataComponent.prototype.checkDate = function (month, year) {
+        var _this = this;
+        var m = (month < 10) ? "0" + month : month;
+        var y = year - 2000;
+        var str = m + y;
+        this.http.get("http://localhost:3000/api/checkdate?my=" + str)
+            .subscribe(function (data) {
+            _this.dateList = data.json();
+        });
+    };
+    DataComponent.prototype.getDataFromDate = function (filename) {
+        this.route.navigate(['datalogger/table'], { queryParams: { filename: filename } });
+    };
+    return DataComponent;
+}());
+DataComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-data',
+        template: __webpack_require__(240),
+        styles: [__webpack_require__(219)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* Router */]) === "function" && _b || Object])
+], DataComponent);
+
+var _a, _b;
+//# sourceMappingURL=data.component.js.map
+
+/***/ }),
+
+/***/ 75:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GraphService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var GraphService = (function () {
+    function GraphService() {
+        this.soil = [];
+        this.time = [];
+    }
+    return GraphService;
+}());
+GraphService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])()
+], GraphService);
+
+//# sourceMappingURL=graph.service.js.map
+
+/***/ }),
+
+/***/ 76:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DisconnectComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DisconnectComponent = (function () {
+    function DisconnectComponent() {
+    }
+    DisconnectComponent.prototype.ngOnInit = function () {
+    };
+    return DisconnectComponent;
+}());
+DisconnectComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-disconnect',
+        template: __webpack_require__(242),
+        styles: [__webpack_require__(221)]
+    }),
+    __metadata("design:paramtypes", [])
+], DisconnectComponent);
+
+//# sourceMappingURL=disconnect.component.js.map
+
+/***/ }),
+
+/***/ 77:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_data_service__ = __webpack_require__(7);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LiveDataComponentComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var LiveDataComponentComponent = (function () {
+    function LiveDataComponentComponent(data) {
+        this.data = data;
+    }
+    LiveDataComponentComponent.prototype.ngOnInit = function () {
+    };
+    return LiveDataComponentComponent;
+}());
+LiveDataComponentComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-live-data-component',
+        template: __webpack_require__(243),
+        styles: [__webpack_require__(222)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_data_service__["a" /* DataService */]) === "function" && _a || Object])
+], LiveDataComponentComponent);
+
+var _a;
+//# sourceMappingURL=live-data-component.component.js.map
+
+/***/ }),
+
+/***/ 78:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(23);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GraphComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var GraphComponent = (function () {
+    function GraphComponent(route, http) {
+        this.route = route;
+        this.http = http;
+        this.soilChartData = [];
+        this.lightChartData = [];
+        this.vpdChartData = [];
+        this.tempChartData = [];
+        this.humiChartData = [];
+        this.soilCharOption = {
+            title: 'Soil',
+            vAxis: { minValue: 0 },
+            legend: {
+                position: 'bottom'
+            }
+        };
+        this.sensorsData = [];
+    }
+    GraphComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.queryParams.subscribe(function (params) {
+            var filename = params['filename'];
+            _this.http.get("http://localhost:3000/api/getdata?date=" + filename)
+                .subscribe(function (data) {
+                _this.sensorsData = data.json();
+                _this.initSoil();
+                _this.initLight();
+                _this.initTemp();
+                _this.initHumi();
+                _this.initVpd();
+            });
+        });
+    };
+    GraphComponent.prototype.initSoil = function () {
+        this.soilChartData.push(['Time', 'Soil']);
+        this.soilChartData.push(['', 0]);
+        for (var _i = 0, _a = this.sensorsData; _i < _a.length; _i++) {
+            var i = _a[_i];
+            this.soilChartData.push([i.time, Number(i.soil)]);
+        }
+    };
+    GraphComponent.prototype.initLight = function () {
+        this.lightChartData.push(['Time', 'Light']);
+        this.lightChartData.push(['', 30]);
+        for (var _i = 0, _a = this.sensorsData; _i < _a.length; _i++) {
+            var i = _a[_i];
+            this.lightChartData.push([i.time, Number(i.light)]);
+        }
+    };
+    GraphComponent.prototype.initVpd = function () {
+        this.vpdChartData.push(['Time', 'Vpd']);
+        this.vpdChartData.push(['', 1000]);
+        for (var _i = 0, _a = this.sensorsData; _i < _a.length; _i++) {
+            var i = _a[_i];
+            this.vpdChartData.push([i.time, Number(i.vpd)]);
+        }
+    };
+    GraphComponent.prototype.initTemp = function () {
+        this.tempChartData.push(['Time', 'temp']);
+        this.tempChartData.push(['', 0]);
+        for (var _i = 0, _a = this.sensorsData; _i < _a.length; _i++) {
+            var i = _a[_i];
+            this.tempChartData.push([i.time, Number(i.temp)]);
+        }
+    };
+    GraphComponent.prototype.initHumi = function () {
+        this.humiChartData.push(['Time', 'Humi']);
+        this.humiChartData.push(['', 0]);
+        for (var _i = 0, _a = this.sensorsData; _i < _a.length; _i++) {
+            var i = _a[_i];
+            this.humiChartData.push([i.time, Number(i.humi)]);
+        }
+    };
+    return GraphComponent;
+}());
+GraphComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-graph',
+        template: __webpack_require__(246),
+        styles: [__webpack_require__(225)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */]) === "function" && _b || Object])
+], GraphComponent);
+
+var _a, _b;
+//# sourceMappingURL=graph.component.js.map
+
+/***/ }),
+
+/***/ 79:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(23);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SensortableComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var SensortableComponent = (function () {
+    function SensortableComponent(route, http, router) {
+        this.route = route;
+        this.http = http;
+        this.router = router;
+    }
+    SensortableComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.queryParams.subscribe(function (params) {
+            _this.filename = params['filename'];
+            _this.router.navigate(['datalogger/graph'], { queryParams: { filename: _this.filename } });
+        });
+    };
+    SensortableComponent.prototype.toTable = function () {
+        this.router.navigate(['datalogger/table'], { queryParams: { filename: this.filename } });
+    };
+    SensortableComponent.prototype.toGraph = function () {
+        this.router.navigate(['datalogger/graph'], { queryParams: { filename: this.filename } });
+    };
+    return SensortableComponent;
+}());
+SensortableComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-sensortable',
+        template: __webpack_require__(247),
+        styles: [__webpack_require__(226)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* Router */]) === "function" && _c || Object])
+], SensortableComponent);
+
+var _a, _b, _c;
+//# sourceMappingURL=sensortable.component.js.map
+
+/***/ }),
+
+/***/ 80:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(23);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TableComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var TableComponent = (function () {
+    function TableComponent(route, http) {
+        this.route = route;
+        this.http = http;
+    }
+    TableComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.queryParams.subscribe(function (params) {
+            // console.log(params);
+            _this.filename = params['filename'];
+            _this.http.get("http://localhost:3000/api/getdata?date=" + _this.filename)
+                .subscribe(function (data) {
+                // this.dateList = data.json();
+                _this.sensorsData = data.json();
+            });
+        });
+    };
+    return TableComponent;
+}());
+TableComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-table',
+        template: __webpack_require__(248),
+        styles: [__webpack_require__(227)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */]) === "function" && _b || Object])
+], TableComponent);
+
+var _a, _b;
+//# sourceMappingURL=table.component.js.map
+
+/***/ }),
+
+/***/ 81:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__share_socket_service__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__share_data_service__ = __webpack_require__(7);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var SettingsComponent = (function () {
+    function SettingsComponent(io, dataservice) {
+        this.io = io;
+        this.dataservice = dataservice;
+        this.yearList = [];
+        this.monthList = [];
+        this.dayList = [];
+        this.hourList = [];
+        this.minList = [];
+        this.pList = ["am", "pm"];
+        this.day = 1;
+        this.month = 1;
+        this.year = 2015;
+        this.hour = 0;
+        this.min = 0;
+        this.p = "am";
+    }
+    SettingsComponent.prototype.ngOnInit = function () {
+        var year = 2015;
+        for (var i = 1; i <= 16; i++) {
+            this.yearList.push(year++);
+        }
+        for (var i = 1; i <= 12; i++) {
+            this.monthList.push(i);
+        }
+        for (var i = 1; i <= 31; i++) {
+            this.dayList.push(i);
+        }
+        this.hourList.push(12);
+        for (var i = 1; i <= 11; i++) {
+            this.hourList.push(i);
+        }
+        for (var i = 0; i <= 59; i++) {
+            this.minList.push(i);
+        }
+    };
+    SettingsComponent.prototype.onUpdate = function () {
+        var hour = Number(this.hour);
+        if (this.p == "pm") {
+            if (hour != 12)
+                hour = hour + 12;
+        }
+        else {
+            if (hour == 12)
+                hour = 0;
+        }
+        var datetime = {
+            'day': Number(this.day),
+            'month': Number(this.month),
+            'year': Number(this.year),
+            'hour': Number(hour),
+            'min': Number(this.min)
+        };
+        console.log(datetime);
+        this.io.socket.emit("DATETIME", datetime);
+    };
+    return SettingsComponent;
+}());
+SettingsComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-settings',
+        template: __webpack_require__(250),
+        styles: [__webpack_require__(229)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__share_socket_service__["a" /* SocketService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__share_socket_service__["a" /* SocketService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__share_data_service__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__share_data_service__["a" /* DataService */]) === "function" && _b || Object])
+], SettingsComponent);
+
+var _a, _b;
+//# sourceMappingURL=settings.component.js.map
 
 /***/ })
 
-},[258]);
+},[289]);
 //# sourceMappingURL=main.bundle.js.map
