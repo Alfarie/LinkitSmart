@@ -10,6 +10,12 @@ module.exports.timer_req = 1000;
 module.exports.logger_time = 1000 * 60 * 5;
 
 module.exports.port = 3000;
+
+module.exports.ch_checking = {
+    total_ch: 4,
+    data: []
+}
+
 module.exports.mode = "MANUAL";
 module.exports.setmode = ""
 module.exports.manualRelay = [false, false, false, false];
