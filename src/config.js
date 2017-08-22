@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 module.exports.rootdir = __dirname.replace("/src", "");
 module.exports.portName = '/dev/ttyS0';
 module.exports.urlServer = "http://localhost";
@@ -117,3 +119,17 @@ module.exports.setpoint = [{
 ]
 
 module.exports.setpoint_state = 1;
+
+readConfigFile = function() {
+    try {
+        var datafile = fs.readFileSync(__dirname.replace("/src", "") + "/config.json");
+        var data = JSON.parse(datafile.toString());
+        console.log("[Config] Load json file...");
+        config = data;
+    } catch (ex) {
+        console.log("[Config] Could not read config.json")
+        fs.writeFileSync(__dirname.replace("/src", "") + "/config.json", JSON.stringify(module.exports))
+        console.log("[Config] config.json writed")
+    }
+}
+readConfigFile();

@@ -1,49 +1,46 @@
-var config = require('./config');
-
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
-var io = require('socket.io')(http);
 var path = require('path');
 
-var ser = require('./modules/serial')
-var uicmd = require('./modules/UiCommand');
-var socket = uicmd.socket(io, ser);
-var logger = require('./modules/datalogger');
-var api = require('./modules/api');
+// socket.io module --> use io for declare event or emit
+var io = require('socket.io')(http);
+
+//module for connect to could
+var client = require('./modules/client-server')
+
+// cors
 var cors = require('cors');
+app.use(cors())
+
+// serial init --> no implementation on this module (just serial port initialization)
+var ser = require('./modules/serial')
+    // global data --> for keep current sensor value, short logger
 var sensors = require('./modules/sensors');
 
+// communication part to mcu --> require socket.io and serial
+var request_mcu = require('./modules/request-mcu');
+request_mcu.setSerial(ser, io); // set serial and socket.io
+request_mcu.startReq(); // start send Request sensor data
+
+// uicmd --> socket.io connection part to UI
+var uicmd = require('./modules/UiCommand');
+uicmd.socket(io);
+
+
+var logger = require('./modules/datalogger');
 logger.start();
-uicmd.startReq();
 
-
-app.use(cors());
-var root = path.join(path.resolve(__dirname, '../build/dist'));
-app.use(express.static(root));
+var api = require('./modules/api');
 app.use('/api/', api);
 
-ser.on('data', function(data) {
-    data = data.toString();
-    data = data.replace("\r", "");
-    val = data.split(",");
-    var jdata = {
-        'time': val[0],
-        'date': val[1],
-        'temp': Number(val[2]),
-        'humi': Number(val[3]),
-        'light': Number(val[4]),
-        'soil': Number(val[5]),
-        'vpd': Number(val[6])
-    }
-    sensors.sensors = jdata;
-    io.to('0x01').emit('SENSOR_DATA', jdata);
-});
+var root = path.join(path.resolve(__dirname, '../build/dist'));
+app.use(express.static(root));
 
 app.get("/*", function(req, res) {
-    res.sendfile('index.html')
+    res.redirect("/");
 });
 
-http.listen(config.port, function() {
-    console.log('listening *:' + config.port);
+http.listen(3000, function() {
+    console.log('listening *:' + 3000);
 });
