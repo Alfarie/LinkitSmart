@@ -24,8 +24,11 @@ request_mcu.setSerial(ser, io); // set serial and socket.io
 request_mcu.startReq(); // start send Request sensor data
 
 // uicmd --> socket.io connection part to UI
-var uicmd = require('./modules/UiCommand');
-uicmd.socket(io);
+// var uicmd = require('./modules/UiCommand');
+// uicmd.socket(io);
+
+var control = require('./modules/control');
+control.socket(io);
 
 
 var logger = require('./modules/datalogger');
