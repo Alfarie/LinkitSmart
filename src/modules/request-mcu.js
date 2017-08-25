@@ -137,10 +137,11 @@ var clearGpio = function() {
 }
 
 var Queue = function() {
-    console.log(queue)
+    // console.log(queue)
     var cmd = queue[0];
     queue.shift();
     var delay = (cmd == 'REQ') ? 1500 : 100;
+
     setTimeout(Queue, delay)
 }
 
@@ -179,6 +180,7 @@ module.exports.setSerial = setSerail;
 module.exports.gpioOn = gpioOn;
 
 module.exports.gpioOff = gpioOff;
+
 
 initGpio();
 clearGpio();

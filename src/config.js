@@ -110,7 +110,7 @@ var manual = {
 module.exports.ch_channel = {
     total_ch: 4,
     data: [
-        vpd, manual, manual, manual
+        manual, manual, manual, manual
     ]
 }
 

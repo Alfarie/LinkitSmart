@@ -3,15 +3,24 @@ var config = require('../config')
 var mcu = require('./request-mcu');
 var sensors = require('./sensors')
 
+var loopList = [];
+for (var i in config.ch_channel.data) {
+    loopList.push(null);
+}
+
+console.log("LoopList", loopList)
 var socket = function(io) {
     io.on('connection', function(socket) {
         console.log("[Control] Client Connected");
         socket.join('0x01');
 
+        socket.on('disconnect', function() {
+            console.log("Client Disconnected");
+
+        });
     });
     return io;
 }
-
 
 var checking = function() {
     var ch_checking = config.ch_channel;
@@ -30,15 +39,19 @@ var checking = function() {
                 console.log("[Control]", data.type, " start", "ch:", ch)
                 var detecting = config.ch_channel.data[ch].detecting_time * 1000
                 var type = config.ch_channel.data[ch].type
-
-                setpointLoop(type, ch);
-                setInterval(setpointLoop, detecting, type, ch)
+                if (loopList[ch] == null) {
+                    setpointLoop(type, ch);
+                    loopList[ch] = setInterval(setpointLoop, detecting, type, ch)
+                }
 
             } else if (data.working == 1) {
                 //set length
                 var type = config.ch_channel.data[ch].type
-                setLengthLoop(type, ch);
-                setInterval(setLengthLoop, 1000, type, ch)
+                if (loopList[ch] == null) {
+                    setLengthLoop(type, ch);
+                    loopList[ch] = setInterval(setLengthLoop, 1000, type, ch)
+                }
+
             }
         } else if (data.type == 'manual') {
             //send gpio status to 
