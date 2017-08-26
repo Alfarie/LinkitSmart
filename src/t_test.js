@@ -79,7 +79,6 @@ ser.on('data', function(data) {
         'vpd': Number(val[6])
     }
 
-
     sensors.shortLogger.push(jdata);
     if (sensors.shortLogger.length >= 50) {
         sensors.shortLogger.shift();
